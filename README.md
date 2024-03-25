@@ -8,3 +8,7 @@ Currently in development, so the game might have bugs and unchanged variables an
 Inspired by [TheMaraudersMap](https://github.com/COE312L-Team1/TheMaraudersMap).
 
 Feel free to add anything to the program, as it's open source.
+
+
+
+## Please check the Release for the first compile version of the code!
