@@ -1,4 +1,5 @@
 # Sousou no Frieren Console Game
+## Please read the README.md inside the release package
 A console game written in Java, simulating the map and navigating the main character, Frieren, around the map.
 
 Information taken from [Frieren: Beyond Journey's End Wiki](https://frieren.fandom.com/).
