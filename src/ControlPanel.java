@@ -1,11 +1,14 @@
-
 public class ControlPanel {
 	Command [] cmds;
 	Location curr;
+	
+	// Constructor for ControlPanel class
 	public ControlPanel(Command [] cmds, Location l) {
 		this.cmds = cmds;
 		this.curr = l;
 	}
+	
+	// Method to parse and execute commands
 	public Location parse(String cmd){
 
 		String op = cmd.split(" ")[0];
