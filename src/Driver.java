@@ -1,3 +1,29 @@
+
+/*
+* ===============================================================
+* FRIEREN CONSOLE GAME
+* ===============================================================
+* Repository: https://github.com/EZiskpsy05/Frieren_console_game
+*
+* This Java-based console game is inspired by the adventures in the 
+* world of Frieren. Players navigate through a rich storyline, 
+* interact with characters, and make choices that influence the game's outcome.
+*
+* Developed by: Howard Tran
+* License: MIT License
+*
+* For contributions, issues, and feature requests, please visit:
+* https://github.com/EZiskpsy05/Frieren_console_game/issues
+*
+* Enjoy the magical journey!
+* ===============================================================
+*/
+
+/*
+ * ===============================================================
+ *                    IMPORT STATEMENTS
+ * ===============================================================
+ */
 import audio.AudioPlayer;
 import effects.TypeEffect;
 import image.DisplayImage;
@@ -13,7 +39,11 @@ import java.util.ArrayList;
 import java.util.Scanner;
 import lu.ewelohd.jconsoleimage.*;
 import lu.ewelohd.jconsoleimage.core.ConsoleImage;
-
+/*
+ * ===============================================================
+ *                       MAIN CLASS
+ * ===============================================================
+ */
 public class Driver
 {
      /*				      =====
@@ -26,7 +56,11 @@ public class Driver
       *			https://frieren.fandom.com/wiki/Locations
       *
       * */
-
+    /*
+     * ===============================================================
+     *                    GLOBAL VARIABLES
+     * ===============================================================
+     */
      static Watch watch = new Watch();
      static Serie serie = new Serie(
        "Serie",
@@ -38,7 +72,11 @@ public class Driver
          "Only you come visit me?",
          "I'm not letting you copy my magic again!",
          "Would you like to join the Continental Magic Association ?" });
-
+    /*
+     * ===============================================================
+     *                    MAIN METHOD
+     * ===============================================================
+     */
      public static void main(String[] args)
        throws InterruptedException, IOException
      {
@@ -263,7 +301,11 @@ public class Driver
           System.exit(0);
      }
 }
-
+/*
+ * ===============================================================
+ *                      UTILITY CLASSES
+ * ===============================================================
+ */
 class Choice extends colors
 {
 
