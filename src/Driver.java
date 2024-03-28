@@ -205,9 +205,9 @@ public class Driver
           Choice.title();;
 
           String text =
-            "\n\"Now a new beginning has begun to be,\r\n" +                
+            "MADE BY HOWARD\n\n\t\n\"Now a new beginning has begun to be,\r\n" +                
             "And in this land that you protected and kept in safety,\r\n" + 
-            "These budding lives are with me on this journey.”\"\r\nSay the title to reveal the map.";
+            "These budding lives are with me on this journey.\"\r\nSay the title to reveal the map.";
           TypeEffect.delay(text);
 
 
